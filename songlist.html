@@ -16,7 +16,6 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-    
    <!-- ======= Datatables ======= -->
   <link rel="stylesheet" type="text/css" href="assets/DataTables/datatables.min.css"/>
   <script type="text/javascript" src="assets/DataTables/datatables.min.js"></script>
@@ -72,7 +71,7 @@
           In short: you have to connect your Boosty/YT and discord in settings, and an access to a special <code><u>#🍊song_request</u></code> channel will be granted! :3<br>
           Use <code>!add Source - Song Name</code> to add your request to a queue! (max 2)<br>
           Songs that aren’t on this list will cost you 10000 points (twitch coins) or 10 USD tip <a href="https://www.donationalerts.com/r/hakumai">using this link</a> - one song per tip, please. <br>
-          <i>(But remember, that i need sheet music, so if I can’t find it/you don’t have sheet music ready - I will ask you to change your request)</i><br>
+          <i>(But remember, that i need sheet music (in pdf), so if I can’t find it/you don’t have sheet music ready - I will ask you to change your request)</i><br>
           <ul>
             <li>Do not make requests for other people.</li>
             <li>Musescore isn't free and doesn't pay its creators/composers, don't use it</li>
@@ -111,6 +110,9 @@
           </ul>
         </div>
       </div>
+    </div>
+    <div class="container">
+      <p></p>
     </div>
  <!-- ======= Datatables ======= -->
  <div class="container">
@@ -190,29 +192,6 @@ function copyToClipboard(text){
 
     document.body.removeChild(textArea)
 }
-</script>
-<script>
-  var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
-<script>
-  
 </script>
 </body>
 <footer class="footer py-3 bg-dark">
